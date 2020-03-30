@@ -31,6 +31,34 @@ class Graph:
                     edges.append({vertice, neibour})
         return edges
 
+    # def opposite(self, v, e):
+    #     if v in e:
+    #         for vertice in e:
+    #             if vertice != v:
+    #                 target = vertice
+    #         for edge in self.__graph_dict[v]:
+    #             print(edge)
+    #             if edge == target:
+    #                 print("oi")
+    #                 return target
+    #             else:
+    #                 return print("Error f")
+    #     else:
+    #         return print("Error")
+
+    def incidentEdges(self, vertice):
+        if vertice in self.__graph_dict:
+            return self.__graph_dict[vertice]
+
+    def areAdajacent(self, v, w):
+        if v in self.__graph_dict and w in self.__graph_dict:
+            if w in self.__graph_dict[v]:
+                return True
+            else:
+                return False
+        else:
+            return False
+
 if __name__ == "__main__":
 
     g = { "a" : ["d"],
@@ -71,3 +99,12 @@ if __name__ == "__main__":
     print(graph.vertices())
     print("Edges of graph:")
     print(graph.edges())
+
+    print("Incident Edges")
+    print(graph.incidentEdges("c"))
+
+    print("Are Adjacents?")
+    print(graph.areAdajacent("c", 'b'))
+
+    # print("Opposite")
+    # print(graph.opposite("c", {"c", "f"}))

@@ -1,1 +1,1 @@
-# Grafos
+# Repositório destinado ao estudo da cadeira de Teoria do Grafos

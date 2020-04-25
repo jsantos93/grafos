@@ -1,8 +1,15 @@
+import sys
+
 class Vertex:
 
     def __init__(self, node):
         self.node = node
         self.adjacent = {}
+        # Inicializa a distancia de todos os nós como infinito
+        self.distance = sys.maxint
+        # Inicia todos os nós sem visita
+        self.visited = False
+        self.previous = None
 
     def addConection(self, node, weight = 0):
         self.adjacent[node] = weight
@@ -13,6 +20,17 @@ class Vertex:
     def getWeight(self, node):
         return self.adjacent[node]
 
+    def setDistance(self, distance):
+        self.distance = distance
+
+    def getDistance(self):
+        return self.distance
+    
+    def setVisitedAsTrue(self):
+        self.visited = True
+    
+    def set_previous(self, prev):
+        self.previous = prev
 
 class Graph:
 
@@ -43,6 +61,9 @@ class Graph:
 
     def getNodes(self):
         return self.vert_dict.keys()
+
+    def __str__(self):
+        return         
 
 if __name__ == "__main__":
     

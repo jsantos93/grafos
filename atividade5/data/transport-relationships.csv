@@ -1,0 +1,16 @@
+src,dst,relationship,cost
+"Araripina","Caruaru","EROAD",46
+"Araripina","Igarassu","EROAD",59
+"Igarassu","Salgueiro","EROAD",26
+"Araripina","Instancia","EROAD",369
+"Instancia","Carpina","EROAD",74
+"Carpina","Petrolina","EROAD",277
+"Serra Talhada","Igarassu","EROAD",27
+"Arco Verde","Serra Talhada","EROAD",207
+"Ouricuri","Arco Verde","EROAD",22
+"Surubim","Ouricuri","EROAD",32
+"Petrolina","Surubim","EROAD",106
+"Exu","Salgueiro","EROAD",25
+"Exu","Caruaru","EROAD",35
+"Igarassu","Exu","EROAD",32
+"Serra Talhada","Salgueiro","EROAD",33

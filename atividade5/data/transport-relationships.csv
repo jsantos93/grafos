@@ -1,16 +1,27 @@
 src,dst,relationship,cost
-"Araripina","Caruaru","EROAD",46
-"Araripina","Igarassu","EROAD",59
-"Igarassu","Salgueiro","EROAD",26
-"Araripina","Instancia","EROAD",369
-"Instancia","Carpina","EROAD",74
-"Carpina","Petrolina","EROAD",277
-"Serra Talhada","Igarassu","EROAD",27
-"Arco Verde","Serra Talhada","EROAD",207
-"Ouricuri","Arco Verde","EROAD",22
-"Surubim","Ouricuri","EROAD",32
-"Petrolina","Surubim","EROAD",106
-"Exu","Salgueiro","EROAD",25
-"Exu","Caruaru","EROAD",35
-"Igarassu","Exu","EROAD",32
-"Serra Talhada","Salgueiro","EROAD",33
+Araripina,Caruaru,EROAD,46
+Araripina,Igarassu,EROAD,59
+Igarassu,Salgueiro,EROAD,26
+Araripina,Instancia,EROAD,369
+Instancia,Carpina,EROAD,74
+Carpina,Petrolina,EROAD,277
+Serra Talhada,Igarassu,EROAD,27
+Arco Verde,Serra Talhada,EROAD,207
+Ouricuri,Arco Verde,EROAD,22
+Surubim,Ouricuri,EROAD,32
+Petrolina,Surubim,EROAD,106
+Exu,Salgueiro,EROAD,25
+Exu,Caruaru,EROAD,35
+Igarassu,Exu,EROAD,32
+Serra Talhada,Salgueiro,EROAD,33
+Cupira,Orobó,EROAD,148
+Orobó,Rio Formoso,EROAD,181
+Rio Formoso,Igarassu,EROAD,113
+Rio Formoso,Exu,EROAD,626
+Exu,Amaraji,EROAD,570
+Feira Nova,Amaraji,EROAD,88
+Amaraji,Ouricuri,EROAD,577
+Parnamirim,Instancia,EROAD,558
+Serra Talhada,Lagoa de Itaenga,EROAD,391
+Lagoa de Itaenga,Chã Grande,EROAD,62
+Chã Grande,Arco Verde,EROAD,188
